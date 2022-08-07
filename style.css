@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    margin-left: 24%;
+    margin-right: 15%;
+
+    
+}
+.container, .box1-1,.box2-2{
+    position: relative;
+    border-radius: 3px;
+    border-style: none;
+}
+.box1-1{
+    height: 300px;
+    width: 820px;
+    background-color: rgb(58, 54, 54);
+}
+#text1,.text2{
+    font-size: 16px;
+    position: relative;
+    width: 722px;
+    font-size: medium;
+    left: 6%;
+    border-radius: 3px;
+    border-style: none;
+}
+#text1{
+    top: 28px;
+    height: 40px;
+}
+.text2{
+    font-size: 18px;
+    top: 40px;
+    height: 130px;
+}
+
+#add{
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(20, 98, 255);
+    position: relative;
+    top: 50px;
+    left: 6%;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+}
+/* //below output part */
+.box2{
+position: absolute;
+}
+.box2 h1{
+    padding-left: 100px;
+    
+}
+.box2-2{
+    padding:0 15px;
+    margin-right:15px;
+    margin-bottom: 15px;
+    float: right;
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(58, 54, 54);
+   
+}
+
+.cbox{
+    position: relative;
+    left: -5px;
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+}
+ 
+.note-title,.note,._delete,.edit{
+position: absolute;
+width: 100%;
+padding: 0 15px;
+justify-content: space-around;
+}
+.note {
+    padding-top: 30px;
+}
+._delete,.edit{
+border-style: none;
+border-radius: 5px;
+background-color: rgb(21, 192, 24);
+position: relative;
+width: 100%;
+top: 140px;
+margin-left: 09px;
+height: 40px;
+width: 120px;
+color: rgb(241, 255, 240);
+}
+.edit{
+background-color: rgb(187, 21, 21);
+}
+._delete:hover{
+    background-color: rgba(21, 192, 24, 0.84);
+}
+.edit:hover{
+    background-color:rgb(187, 21, 21,0.84); ;
+}
+#add:hover{
+    background-color: rgb(20, 98, 255,0.84); 
+}
+.date{
+position: absolute;
+top: 85%;
+text-align: right;
+width: 100%;
+padding: 0 20px;
+font-size: 16px;
+
+}
+#populate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    padding-top: 20px;
+
+}
+.header{
+    text-align: center;
+}
